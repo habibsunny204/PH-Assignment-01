@@ -52,7 +52,7 @@ nav h1{
 .primary-color{
     color: #4E47FF;
 }
-.btn-primary{
+.btn-primary {
     background-color: #4E47FF;
     font-weight: bold;
     font-size: 16px;
@@ -60,8 +60,38 @@ nav h1{
     padding: 12px 36px;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
 }
+
 .btn-primary a{
     text-decoration: none;
     color: #FFFFFF;
+}
+
+/* main section */
+
+.container{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin: 0px 150px 120px 150px;
+     gap: 220px;
+
+}
+.container-preview{
+    padding: 62.5px 0px;
+}
+.container-preview h1{
+    font-weight: bold;
+    font-size: 42px;
+    color: rgba(37, 36, 50, 1);
+    margin-bottom: 23px;
+}
+.container-preview p{
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+    margin-bottom: 23px;
+}
+.container-img img{
+    border-radius: 48px;
 }
