@@ -63,14 +63,18 @@ nav h1{
     cursor: pointer;
 }
 
+.btn-primary:hover{
+    background-color:green;
+}
+
 .btn-primary a{
     text-decoration: none;
     color: #FFFFFF;
 }
 
 /* main section */
-
-.container{
+/* container-1 */
+.container-1{
      display: flex;
      align-items: center;
      justify-content: space-between;
@@ -94,4 +98,37 @@ nav h1{
 }
 .container-img img{
     border-radius: 48px;
+}
+
+/* container-2 */
+.container-2{
+    text-align: center;
+    padding: 50px 145px;
+    background-color: rgba(78, 71, 255, 0.1);
+    margin: 0px 150px 140px 150px;
+    border-radius: 24px;
+}
+.container-title{
+    color: rgba(37, 36, 50, 1);
+    font-weight: bold;
+    font-size: 38px;
+    margin-bottom: 40px;
+}
+
+.container-info{
+    display: flex;
+    justify-content: center;
+    gap: 158px;
+}
+.info h1{
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+    margin: 0;
+    padding: 0px 9px;
+}
+.info p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0;
 }
