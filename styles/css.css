@@ -73,7 +73,7 @@ nav h1{
 
 /* main section */
 main{
-    padding: 120px 150px 70px 150px;
+    padding: 120px 150px 0px 150px;
     background-color: #F5F8FF;
 }
 /* container-1 */
@@ -210,6 +210,7 @@ main{
     background-color: rgba(255, 255, 255, 1);
     border-radius: 14px;
     text-align: center;
+    margin-bottom: 93px;
 }
 .container-4-title{
     margin: 0;
@@ -234,4 +235,62 @@ main{
 .container-4 img {
     margin: 0px auto;
     border-radius: 48px;
+}
+
+/* container-5 */
+.container-5{
+    padding: 71px 0px;
+    display: flex;
+}
+.container-5 h1{
+    font-weight: bold;
+    font-size: 97px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: rgba(0, 0, 0, 1);
+}
+form label{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: rgba(0, 0, 0, 1);
+    display: block;
+    margin-bottom: 10px;
+}
+form input{
+    height: 50px;
+    width: 500px;
+    padding: 20px 32px;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(214, 221, 237, 1);
+}
+form textarea{
+    height: 100px;
+    width: 500px;
+    padding: 20px 32px;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(214, 221, 237, 1);
+    resize: none;
+}
+form button{
+    width: 100%;
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
 }
